@@ -7,7 +7,7 @@ This repository contains a data warehouse solution for analyzing national exam r
 
 This work presents the design, implementation, and evaluation of a data warehouse for Portuguese national examination results. Transforming approximately one million examination records from 2013-2014 from an operational database into a dimensional model, the project demonstrates how a star schema design significantly enhances analytical capabilities for educational data. The dimensional model consists of six fact tables and nine dimension tables, enabling multi-perspective analysis across schools, districts, courses, and demographics. Comparative query performance testing reveals substantial improvements, with analytical queries executing up to 215 times faster in the dimensional model compared to the relational model. Interactive Power BI dashboards provide visualizations from general, school-specific, and geographic perspectives, revealing significant insights including regional performance patterns and school type differences. The project concludes by discussing the advantages of dimensional modeling for analytical workloads and suggesting future developments including cloud-native data warehousing and AI/ML integration for predictive analytics in educational contexts.
 
-![Dimensional Model](dimensional_model.png)
+![Dimensional Model](Dimensional_model.png)
 
 *Dimensional model for the national exams data warehouse*
 
